@@ -7,27 +7,48 @@
     body {
       text-align: center;
       font-family: Arial, sans-serif;
-      margin-top: 20%;
+      margin-top: 10%;
       background-color: #fff;
     }
     h1 {
-      font-size: 4em;
+      font-size: 16em;
       margin-bottom: 0.2em;
       background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
       background-clip: text;
-      -webkit-background-clip: text; /* for Safari/Chrome */
+      -webkit-background-clip: text;
       color: transparent;
-      -webkit-text-fill-color: transparent; /* for Safari */
+      -webkit-text-fill-color: transparent;
     }
-    p {
+    .subtitle {
       font-style: italic;
-      font-size: 1.5em;
+      font-size: 4em;
       color: #555;
+      margin-top: 0;
+    }
+    .more-text {
+      font-size: 1.5em;
+      color: #333;
+      margin-top: 2em;
+    }
+    .footer {
+      text-align: right;
+      font-size: 1em;
+      color: #888;
+      margin: 5em 2em 1em 2em;
     }
   </style>
 </head>
 <body>
   <h1>wormFISH</h1>
-  <p>Coming Soon</p>
+  <p class="subtitle">Coming Soon...</p>
+
+  <div class="more-text">
+    <p>This site will host <em>C. elegans</em> spatial transcriptomic data collected using wormFISH.</p>
+    <p>Stay tuned for updates!</p>
+  </div>
+
+  <div class="footer">
+    Wenhan Chang, Ph.D. (whchang2 at mit.edu) — Horvitz Lab, HHMI/MIT
+  </div>
 </body>
 </html>
