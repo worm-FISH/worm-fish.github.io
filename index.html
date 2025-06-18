@@ -14,8 +14,10 @@
       font-size: 4em;
       margin-bottom: 0.2em;
       background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text; /* for Safari/Chrome */
+      color: transparent;
+      -webkit-text-fill-color: transparent; /* for Safari */
     }
     p {
       font-style: italic;
